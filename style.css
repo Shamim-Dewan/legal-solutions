@@ -37,3 +37,27 @@ background: #B68C5A;
 border-radius: 8px;
 font-size: 18px;
 }
+.btn-div{
+    display: flex;
+    justify-content: center;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.btn-div a{
+    font-size: 30px;
+    background-color: #B68C5A;
+    color: #FFFFFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.middle{
+    background-color: #E7E7E7;
+}
+.client-head{
+    margin-top: 100px;
+}

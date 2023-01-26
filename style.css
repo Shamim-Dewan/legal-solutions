@@ -1,10 +1,12 @@
-ul{
+ul {
     margin-left: 50px;
 }
-li{
+
+li {
     margin-left: 25px;
 }
-.cnst{
+
+.cnst {
     background-color: #B68C5A;
     color: white;
     border-radius: 5px;
@@ -13,38 +15,43 @@ li{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-max-width: 180px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 180px;
 }
-.carousel{
+
+.carousel {
     background-image: url(img/Rectangle\ 4.png);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
 }
-.search-input{
-width: 50%;
-height: auto;
-background: #FFFFFF;
-border-radius: 8px;
-font-size: 18px;
+
+.search-input {
+    width: 50%;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
 }
-.search-btn{
-background: #B68C5A;
-border-radius: 8px;
-font-size: 18px;
+
+.search-btn {
+    background: #B68C5A;
+    border-radius: 8px;
+    font-size: 18px;
 }
-.btn-div{
+
+.btn-div {
     display: flex;
     justify-content: center;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
-.btn-div a{
+
+.btn-div a {
     font-size: 30px;
     background-color: #B68C5A;
     color: #FFFFFF;
@@ -55,9 +62,42 @@ font-size: 18px;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.middle{
+
+.middle {
     background-color: #E7E7E7;
 }
-.client-head{
+
+.client-head {
     margin-top: 100px;
+}
+
+.carousel-inner {
+    background-image: url(img/lady-justice-law-library-concept.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.carousel-heading {
+    color: #FFFFFF;
+    margin-top: 10px
+}
+
+.moga img {
+    width: 50%;
+    margin-top: 40%;
+}
+
+.plus-btn {
+    background-color: #e7e0e0;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    align-items: center;
+}
+
+.plus-btn a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
 }
